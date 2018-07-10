@@ -23,7 +23,7 @@ SET(REQUIRED_LIBS opencv)
 PKG_CHECK_MODULES(LIBS REQUIRED ${REQUIRED_LIBS})
 
 # Set all sources for your application here.
-SET(SOURCES src/camera_calibOpenCV.cpp)
+SET(SOURCES src/CameraCalibOpenCV.cpp)
 
 # This must be invoked *before* any target is created!
 LINK_DIRECTORIES(${LIBS_LIBRARY_DIRS})
